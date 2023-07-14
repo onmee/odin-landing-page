@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 .container {
@@ -50,7 +51,28 @@ a {
     color: #f9faf8;
 }
 
-.one {
+
+.section-a {
+    flex-basis: 200px;
     flex-grow: 1;
+    background-color: #1f2937;
+}
+
+.section-b {
+    flex-basis: 200px;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.section-c {
+    flex-basis: 150px;
+    flex-grow: 0.75;
+    background-color: #e5e6eb;
+}
+
+.section-d {
+    flex-basis: 100px;
+    flex-grow: 0.50;
+    background-color: white;
 }
 

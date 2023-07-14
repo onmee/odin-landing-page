@@ -69,7 +69,6 @@ a {
 #hero-header {
     font-size: 40px;
     font-weight: bolder;
-
     color: #f9faf8;
 }
 
@@ -85,9 +84,26 @@ a {
 }
 
 .section-c {
+    align-items: center;
     flex-basis: 150px;
     flex-grow: 0.75;
-    background-color: #e5e6eb;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+    padding: 80px;
+    color: #1f2937;
+}
+
+#author {
+    margin-top: 16px;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
 .section-d {

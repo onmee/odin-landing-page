@@ -82,6 +82,39 @@ a {
     background-color: #F1F6EE;
 }
 
+#info-header {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.text-card {
+    border: none;
+    width: 104px;
+    inline-size: 104px;
+    overflow-wrap: break-word;
+    height: 50px;
+    padding: 0 8px;
+    margin: 0 8px;
+    font-size: 10px;
+}
+
 .section-c {
     flex-basis: 150px;
     flex-grow: 0.75;
@@ -152,3 +185,4 @@ img {
     border-width: 2px;
     border-color: white;
 }
+
